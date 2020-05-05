@@ -1,0 +1,381 @@
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "quack"; ObjectID = "0LQ-e4-WtS"; */
+"0LQ-e4-WtS.ibExternalAccessibilityDescription" = "quack";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "quack"; ObjectID = "0LQ-e4-WtS"; */
+"0LQ-e4-WtS.ibExternalAccessibilityHelp" = "quack";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "0LQ-e4-WtS"; */
+"0LQ-e4-WtS.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Quack"; ObjectID = "0LQ-e4-WtS"; */
+"0LQ-e4-WtS.title" = "Quack";
+
+/* Class = "NSMenuItem"; title = "Platinum Sound"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Platinum Sound";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "laugh"; ObjectID = "1nt-nN-oax"; */
+"1nt-nN-oax.ibExternalAccessibilityDescription" = "laugh";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "laugh"; ObjectID = "1nt-nN-oax"; */
+"1nt-nN-oax.ibExternalAccessibilityHelp" = "laugh";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "1nt-nN-oax"; */
+"1nt-nN-oax.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Click"; ObjectID = "1sk-Uz-mPF"; */
+"1sk-Uz-mPF.title" = "Click";
+
+/* Class = "NSButtonCell"; title = "Temple"; ObjectID = "2yw-5Z-0bs"; */
+"2yw-5Z-0bs.title" = "Temple";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "sosumi"; ObjectID = "4D1-OS-4ak"; */
+"4D1-OS-4ak.ibExternalAccessibilityDescription" = "sosumi";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "sosumi"; ObjectID = "4D1-OS-4ak"; */
+"4D1-OS-4ak.ibExternalAccessibilityHelp" = "sosumi";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "4D1-OS-4ak"; */
+"4D1-OS-4ak.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenuItem"; title = "Quit Platinum Sound"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit Platinum Sound";
+
+/* Class = "NSButtonCell"; title = "Indigo"; ObjectID = "4wZ-aQ-tCn"; */
+"4wZ-aQ-tCn.title" = "Indigo";
+
+/* Class = "NSMenuItem"; title = "About Platinum Sound"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About Platinum Sound";
+
+/* Class = "NSButtonCell"; alternateTitle = "Close"; ObjectID = "6gj-gj-bCv"; */
+"6gj-gj-bCv.alternateTitle" = "Close";
+
+/* Class = "NSTextFieldCell"; title = "Alert volume:"; ObjectID = "8E4-o3-kHZ"; */
+"8E4-o3-kHZ.title" = "Alert volume:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "uhoh"; ObjectID = "9CV-7Q-fry"; */
+"9CV-7Q-fry.ibExternalAccessibilityDescription" = "uhoh";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "uhoh"; ObjectID = "9CV-7Q-fry"; */
+"9CV-7Q-fry.ibExternalAccessibilityHelp" = "uhoh";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "9CV-7Q-fry"; */
+"9CV-7Q-fry.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSButtonCell"; title = "Open..."; ObjectID = "BbY-yc-0ND"; */
+"BbY-yc-0ND.title" = "Open...";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "bip"; ObjectID = "DoN-hj-sTJ"; */
+"DoN-hj-sTJ.ibExternalAccessibilityDescription" = "bip";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "bip"; ObjectID = "DoN-hj-sTJ"; */
+"DoN-hj-sTJ.ibExternalAccessibilityHelp" = "bip";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "DoN-hj-sTJ"; */
+"DoN-hj-sTJ.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Droplet"; ObjectID = "E3e-hN-IV7"; */
+"E3e-hN-IV7.title" = "Droplet";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Help";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "logjam"; ObjectID = "HCD-nc-CF1"; */
+"HCD-nc-CF1.ibExternalAccessibilityDescription" = "logjam";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "logjam"; ObjectID = "HCD-nc-CF1"; */
+"HCD-nc-CF1.ibExternalAccessibilityHelp" = "logjam";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "HCD-nc-CF1"; */
+"HCD-nc-CF1.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "moof"; ObjectID = "IDS-Vm-3hG"; */
+"IDS-Vm-3hG.ibExternalAccessibilityDescription" = "moof";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "moof"; ObjectID = "IDS-Vm-3hG"; */
+"IDS-Vm-3hG.ibExternalAccessibilityHelp" = "moof";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "IDS-Vm-3hG"; */
+"IDS-Vm-3hG.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "click"; ObjectID = "KKU-np-Hu4"; */
+"KKU-np-Hu4.ibExternalAccessibilityDescription" = "click";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "click"; ObjectID = "KKU-np-Hu4"; */
+"KKU-np-Hu4.ibExternalAccessibilityHelp" = "click";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "KKU-np-Hu4"; */
+"KKU-np-Hu4.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "whit"; ObjectID = "NUV-9k-2sQ"; */
+"NUV-9k-2sQ.ibExternalAccessibilityDescription" = "whit";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "whit"; ObjectID = "NUV-9k-2sQ"; */
+"NUV-9k-2sQ.ibExternalAccessibilityHelp" = "whit";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "NUV-9k-2sQ"; */
+"NUV-9k-2sQ.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Whit"; ObjectID = "NUV-9k-2sQ"; */
+"NUV-9k-2sQ.title" = "Whit";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "Oqg-kA-43g"; */
+"Oqg-kA-43g.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "Oqg-kA-43g"; */
+"Oqg-kA-43g.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "Oqg-kA-43g"; */
+"Oqg-kA-43g.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenuItem"; title = "Long live the Special menu!"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Long live the Special menu!";
+
+/* Class = "NSButtonCell"; title = "Logjam"; ObjectID = "Rzk-oT-Lk6"; */
+"Rzk-oT-Lk6.title" = "Logjam";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "SGF-zc-2wy"; */
+"SGF-zc-2wy.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "SGF-zc-2wy"; */
+"SGF-zc-2wy.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "SGF-zc-2wy"; */
+"SGF-zc-2wy.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "voltage"; ObjectID = "TcT-tH-DpE"; */
+"TcT-tH-DpE.ibExternalAccessibilityDescription" = "voltage";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "voltage"; ObjectID = "TcT-tH-DpE"; */
+"TcT-tH-DpE.ibExternalAccessibilityHelp" = "voltage";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "TcT-tH-DpE"; */
+"TcT-tH-DpE.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Voltage"; ObjectID = "TcT-tH-DpE"; */
+"TcT-tH-DpE.title" = "Voltage";
+
+/* Class = "NSMenu"; title = "Special"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Special";
+
+/* Class = "NSButtonCell"; title = "Funk"; ObjectID = "ULJ-M6-7kT"; */
+"ULJ-M6-7kT.title" = "Funk";
+
+/* Class = "NSButtonCell"; title = "Sosumi"; ObjectID = "V7l-XC-cJf"; */
+"V7l-XC-cJf.title" = "Sosumi";
+
+/* Class = "NSBox"; title = "Choose an alert sound:"; ObjectID = "Xlt-uK-aoB"; */
+"Xlt-uK-aoB.title" = "Choose an alert sound:";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "monkey"; ObjectID = "YnY-fi-ZUz"; */
+"YnY-fi-ZUz.ibExternalAccessibilityDescription" = "monkey";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "monkey"; ObjectID = "YnY-fi-ZUz"; */
+"YnY-fi-ZUz.ibExternalAccessibilityHelp" = "monkey";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "YnY-fi-ZUz"; */
+"YnY-fi-ZUz.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Monkey"; ObjectID = "YnY-fi-ZUz"; */
+"YnY-fi-ZUz.title" = "Monkey";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "pong"; ObjectID = "Yvp-at-1S0"; */
+"Yvp-at-1S0.ibExternalAccessibilityDescription" = "pong";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "pong"; ObjectID = "Yvp-at-1S0"; */
+"Yvp-at-1S0.ibExternalAccessibilityHelp" = "pong";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "Yvp-at-1S0"; */
+"Yvp-at-1S0.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Pong"; ObjectID = "Yvp-at-1S0"; */
+"Yvp-at-1S0.title" = "Pong";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "Z1t-Be-IzP"; */
+"Z1t-Be-IzP.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "Z1t-Be-IzP"; */
+"Z1t-Be-IzP.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "ZWp-0f-z8p"; */
+"ZWp-0f-z8p.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "ZWp-0f-z8p"; */
+"ZWp-0f-z8p.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "ZWp-0f-z8p"; */
+"ZWp-0f-z8p.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "ChuToy"; ObjectID = "ZYy-vJ-6C7"; */
+"ZYy-vJ-6C7.title" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "wildeep"; ObjectID = "Zy8-b1-UgE"; */
+"Zy8-b1-UgE.ibExternalAccessibilityDescription" = "wildeep";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "wildeep"; ObjectID = "Zy8-b1-UgE"; */
+"Zy8-b1-UgE.ibExternalAccessibilityHelp" = "wildeep";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "Zy8-b1-UgE"; */
+"Zy8-b1-UgE.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "aTl-1u-JFS"; */
+"aTl-1u-JFS.title" = "Print…";
+
+/* Class = "NSMenuItem"; title = "Special"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Special";
+
+/* Class = "NSButtonCell"; title = "Boing"; ObjectID = "aVV-fx-ZKg"; */
+"aVV-fx-ZKg.title" = "Boing";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Sound pane in System Preferences"; ObjectID = "bEr-Z8-IME"; */
+"bEr-Z8-IME.ibShadowedToolTip" = "Open Sound pane in System Preferences";
+
+/* Class = "NSButtonCell"; alternateTitle = "Close"; ObjectID = "bOA-PU-keg"; */
+"bOA-PU-keg.alternateTitle" = "Close";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "bTD-F0-Xfn"; */
+"bTD-F0-Xfn.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "bTD-F0-Xfn"; */
+"bTD-F0-Xfn.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "bTD-F0-Xfn"; */
+"bTD-F0-Xfn.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "File";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "laugh"; ObjectID = "dF1-Dx-jfV"; */
+"dF1-Dx-jfV.ibExternalAccessibilityDescription" = "laugh";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityHelp = "laugh"; ObjectID = "dF1-Dx-jfV"; */
+"dF1-Dx-jfV.ibExternalAccessibilityHelp" = "laugh";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Play"; ObjectID = "dF1-Dx-jfV"; */
+"dF1-Dx-jfV.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Laugh"; ObjectID = "dF1-Dx-jfV"; */
+"dF1-Dx-jfV.title" = "Laugh";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "File";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Minimise window"; ObjectID = "dam-Df-TRl"; */
+"dam-Df-TRl.ibExternalAccessibilityDescription" = "Minimise window";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Minimise window"; ObjectID = "dam-Df-TRl"; */
+"dam-Df-TRl.ibExternalAccessibilityHelp" = "Minimise window";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Minimise window"; ObjectID = "dam-Df-TRl"; */
+"dam-Df-TRl.ibShadowedToolTip" = "Minimise window";
+
+/* Class = "NSButtonCell"; title = "UhOh"; ObjectID = "dk8-1R-D3q"; */
+"dk8-1R-D3q.title" = "UhOh";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Close window"; ObjectID = "e43-te-md5"; */
+"e43-te-md5.ibExternalAccessibilityDescription" = "Close window";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Close window"; ObjectID = "e43-te-md5"; */
+"e43-te-md5.ibExternalAccessibilityHelp" = "Close window";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Close window"; ObjectID = "e43-te-md5"; */
+"e43-te-md5.ibShadowedToolTip" = "Close window";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "temple"; ObjectID = "fVN-WJ-pEU"; */
+"fVN-WJ-pEU.ibExternalAccessibilityDescription" = "temple";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "temple"; ObjectID = "fVN-WJ-pEU"; */
+"fVN-WJ-pEU.ibExternalAccessibilityHelp" = "temple";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "fVN-WJ-pEU"; */
+"fVN-WJ-pEU.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "gWZ-ax-1h5"; */
+"gWZ-ax-1h5.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "gWZ-ax-1h5"; */
+"gWZ-ax-1h5.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "gWZ-ax-1h5"; */
+"gWZ-ax-1h5.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Bip"; ObjectID = "jLM-xr-LfZ"; */
+"jLM-xr-LfZ.title" = "Bip";
+
+/* Class = "NSButtonCell"; title = "ClinkKlank"; ObjectID = "keK-mB-SxC"; */
+"keK-mB-SxC.title" = "ClinkKlank";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add all to ~/Library/Sounds"; ObjectID = "ksJ-TR-AXf"; */
+"ksJ-TR-AXf.ibShadowedToolTip" = "Add all to ~/Library/Sounds";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "boing"; ObjectID = "lKS-dT-Soz"; */
+"lKS-dT-Soz.ibExternalAccessibilityDescription" = "boing";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "boing"; ObjectID = "lKS-dT-Soz"; */
+"lKS-dT-Soz.ibExternalAccessibilityHelp" = "boing";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "lKS-dT-Soz"; */
+"lKS-dT-Soz.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "m3Q-ga-3IU"; */
+"m3Q-ga-3IU.title" = "Add";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "ChuToy"; ObjectID = "oNY-Ea-yUU"; */
+"oNY-Ea-yUU.ibExternalAccessibilityDescription" = "ChuToy";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "ChuToy"; ObjectID = "oNY-Ea-yUU"; */
+"oNY-Ea-yUU.ibExternalAccessibilityHelp" = "ChuToy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "oNY-Ea-yUU"; */
+"oNY-Ea-yUU.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "qIS-W8-SiK"; */
+"qIS-W8-SiK.title" = "Page Setup…";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "droplet"; ObjectID = "qj0-Fe-m8h"; */
+"qj0-Fe-m8h.ibExternalAccessibilityDescription" = "droplet";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "droplet"; ObjectID = "qj0-Fe-m8h"; */
+"qj0-Fe-m8h.ibExternalAccessibilityHelp" = "droplet";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "qj0-Fe-m8h"; */
+"qj0-Fe-m8h.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButtonCell"; title = "Wild Eep"; ObjectID = "rwB-we-YpW"; */
+"rwB-we-YpW.title" = "Wild Eep";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "clinkklank"; ObjectID = "s19-MP-tEV"; */
+"s19-MP-tEV.ibExternalAccessibilityDescription" = "clinkklank";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "clinkklank"; ObjectID = "s19-MP-tEV"; */
+"s19-MP-tEV.ibExternalAccessibilityHelp" = "clinkklank";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "s19-MP-tEV"; */
+"s19-MP-tEV.ibShadowedToolTip" = "Play";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "indigo"; ObjectID = "tS1-k9-aJH"; */
+"tS1-k9-aJH.ibExternalAccessibilityDescription" = "indigo";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "indigo"; ObjectID = "tS1-k9-aJH"; */
+"tS1-k9-aJH.ibExternalAccessibilityHelp" = "indigo";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Play"; ObjectID = "tS1-k9-aJH"; */
+"tS1-k9-aJH.ibShadowedToolTip" = "Play";
+
+/* Class = "NSMenu"; title = "Platinum Sound"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Platinum Sound";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";
+
+/* Class = "NSButtonCell"; title = "Moof"; ObjectID = "xT7-NP-ooN"; */
+"xT7-NP-ooN.title" = "Moof";

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="Platinum Sound" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Platinum Sound" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About Platinum Sound" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <action selector="showPreferences:" target="Voe-Tx-rLC" id="5hA-6w-bOH"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Quit Platinum Sound" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="File" id="dMs-cI-mzQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="File" id="bib-Uj-vzu">
+                                    <items>
+                                        <menuItem title="Page Setup…" keyEquivalent="P" id="qIS-W8-SiK">
+                                            <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="runPageLayout:" target="Ady-hI-5gd" id="Din-rz-gC5"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Print…" keyEquivalent="p" id="aTl-1u-JFS">
+                                            <connections>
+                                                <action selector="print:" target="Ady-hI-5gd" id="qaZ-4w-aoO"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Special" id="aUF-d1-5bR">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Special" systemMenu="window" id="Td7-aD-5lo">
+                                    <items>
+                                        <menuItem title="Long live the Special menu!" id="R4o-n2-Eq4">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="performZoom:" target="Ady-hI-5gd" id="DIl-cC-cCs"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Platinum_Sound" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" appearanceType="aqua" animationBehavior="default" tabbingMode="disallowed" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" fullSizeContentView="YES"/>
+                        <windowCollectionBehavior key="collectionBehavior" fullScreenNone="YES"/>
+                        <rect key="contentRect" x="570" y="346" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="VjT-TW-WCb" kind="relationship" relationship="window.shadowedContentViewController" id="gdK-so-bvg"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SHj-6g-Ob1">
+            <objects>
+                <viewController showSeguePresentationStyle="single" id="VjT-TW-WCb" customClass="ViewController" customModule="Platinum_Sound" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" appearanceType="aqua" id="J7C-to-lWw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eac-Ry-ywQ">
+                                <rect key="frame" x="0.0" y="276" width="40" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_left" id="HE4-6b-zpI"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0vQ-tG-X43">
+                                <rect key="frame" x="337" y="276" width="40" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_left" id="GW6-hB-ahT"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xh-T0-8BM">
+                                <rect key="frame" x="561" y="276" width="40" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topRight" imageScaling="proportionallyDown" image="ui_title_right" id="F4c-kb-T1b"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsD-zA-b8G">
+                                <rect key="frame" x="224" y="276" width="40" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topRight" imageScaling="proportionallyDown" image="ui_title_right" id="ywu-av-24Y"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnB-CI-hdG">
+                                <rect key="frame" x="34" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="5NV-fs-hOS"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycP-TP-BsK">
+                                <rect key="frame" x="130" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="qyu-45-PaJ"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-9a-Vic">
+                                <rect key="frame" x="371" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="dN8-0W-iGS"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tme-1u-i5k">
+                                <rect key="frame" x="418" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="Tjd-Mx-Iep"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hu-yJ-xaL">
+                                <rect key="frame" x="470" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="e7a-gd-if8"/>
+                            </imageView>
+                            <button toolTip="Close window" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e43-te-md5" userLabel="Close">
+                                <rect key="frame" x="6" y="282" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" alternateTitle="Close" bezelStyle="shadowlessSquare" image="ui_close" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="6gj-gj-bCv">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="controlContent"/>
+                                </buttonCell>
+                                <accessibility description="Close window" help="Close window" identifier="Close"/>
+                                <connections>
+                                    <action selector="close:" target="VjT-TW-WCb" id="bUt-4a-N94"/>
+                                </connections>
+                            </button>
+                            <button toolTip="Minimise window" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dam-Df-TRl" userLabel="Minimise">
+                                <rect key="frame" x="581" y="282" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" alternateTitle="Close" bezelStyle="shadowlessSquare" image="ui_minimise" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="bOA-PU-keg">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="controlContent"/>
+                                </buttonCell>
+                                <accessibility description="Minimise window" help="Minimise window" identifier="Minimise"/>
+                                <connections>
+                                    <action selector="close:" target="VjT-TW-WCb" id="9Wx-zD-GYA"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" toolTip="Add all to ~/Library/Sounds" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksJ-TR-AXf">
+                                <rect key="frame" x="498" y="201" width="82" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Add" bezelStyle="smallSquare" image="ui_bttn" imagePosition="overlaps" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyUpOrDown" inset="2" id="m3Q-ga-3IU">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name="Charcoal"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            </button>
+                            <button autoresizesSubviews="NO" toolTip="Open Sound pane in System Preferences" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEr-Z8-IME">
+                                <rect key="frame" x="498" y="168" width="82" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Open..." bezelStyle="smallSquare" image="ui_bttn" imagePosition="overlaps" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" identifier="sysprefs" allowsMixedState="YES" imageScaling="proportionallyUpOrDown" inset="2" id="BbY-yc-0ND">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name="Charcoal"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <action selector="sysprefs:" target="VjT-TW-WCb" id="et6-xe-dAS"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5H-XZ-jdU">
+                                <rect key="frame" x="125" y="18" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ui_min" id="PFa-b5-1ZF"/>
+                            </imageView>
+                            <slider wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyI-c4-iTT" propertyAccessControl="all">
+                                <rect key="frame" x="142" y="16" width="185" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <shadow key="shadow">
+                                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </shadow>
+                                <sliderCell key="cell" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" alignment="left" maxValue="100" doubleValue="100" tickMarkPosition="below" numberOfTickMarks="16" allowsTickMarkValuesOnly="YES" sliderType="linear" id="dQ7-XR-yE5"/>
+                            </slider>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3x7-JJ-W77">
+                                <rect key="frame" x="333" y="18" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ui_max" id="KOn-jz-St8"/>
+                            </imageView>
+                            <box appearanceType="aqua" fixedFrame="YES" borderType="bezel" title="Choose an alert sound:" titlePosition="belowTop" translatesAutoresizingMaskIntoConstraints="NO" id="Xlt-uK-aoB">
+                                <rect key="frame" x="17" y="63" width="464" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <view key="contentView" id="EsG-9x-yyJ">
+                                    <rect key="frame" x="3" y="3" width="458" height="183"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button identifier="bip" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gFZ-fB-GmX">
+                                            <rect key="frame" x="0.0" y="67" width="44" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Logjam" alternateTitle="Logjam" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="bim-IM-yna">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="bip" help="bip" identifier="bip"/>
+                                        </button>
+                                        <button identifier="boing" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgj-zi-vVH">
+                                            <rect key="frame" x="53" y="67" width="41" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Monkey" alternateTitle="Monkey" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" imageScaling="proportionallyDown" inset="2" id="hKZ-Ai-HFn">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="boing" help="boing" identifier="boing"/>
+                                        </button>
+                                        <button identifier="ChuToy" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VgF-fd-GwN">
+                                            <rect key="frame" x="101" y="67" width="44" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Moof" alternateTitle="Moof" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="P92-Ee-lr1">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="ChuToy" help="ChuToy" identifier="ChuToy"/>
+                                        </button>
+                                        <button identifier="click" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZQS-Ds-FcY">
+                                            <rect key="frame" x="151" y="67" width="41" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Pong" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="bGX-5j-WCh">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="click" help="click" identifier="click"/>
+                                        </button>
+                                        <button identifier="clinkklank" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HQe-hm-uDp">
+                                            <rect key="frame" x="192" y="67" width="57" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Quack" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="5PZ-wq-Gei">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="clinkklank" help="clinkklank" identifier="clinkklank"/>
+                                        </button>
+                                        <button identifier="droplet" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5t2-ke-IYy">
+                                            <rect key="frame" x="248" y="67" width="44" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Sosumi" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" sound="Sosumi" inset="2" id="qKD-9F-Pif">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="droplet" help="droplet" identifier="droplet"/>
+                                        </button>
+                                        <button identifier="indigo" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6x-dL-gz6">
+                                            <rect key="frame" x="289" y="67" width="60" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Submarine" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" sound="Submarine" inset="2" id="3mG-cq-Xo2">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="indigo" help="indigo" identifier="indigo"/>
+                                        </button>
+                                        <button identifier="laugh" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWb-pL-NFs">
+                                            <rect key="frame" x="346" y="67" width="43" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Temple" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" toolTip="Play" identifier="laugh" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="FYp-YM-E5r">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                                <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                                        </button>
+                                        <button identifier="bip" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVg-oy-gdZ">
+                                            <rect key="frame" x="0.0" y="9" width="44" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Uh-Oh" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="esc-b7-5D7">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="bip" help="bip" identifier="bip"/>
+                                        </button>
+                                        <button identifier="boing" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P6g-UL-kpQ">
+                                            <rect key="frame" x="53" y="9" width="41" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Voltage" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" imageScaling="proportionallyDown" inset="2" id="mpU-an-L5J">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="boing" help="boing" identifier="boing"/>
+                                        </button>
+                                        <button identifier="ChuToy" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5N-Uy-8t8">
+                                            <rect key="frame" x="101" y="9" width="44" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="Whit" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="1Ty-zj-s7J">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="ChuToy" help="ChuToy" identifier="ChuToy"/>
+                                        </button>
+                                        <button identifier="click" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n2K-zN-EvN">
+                                            <rect key="frame" x="151" y="9" width="41" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" title="WildEep" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="oRg-o7-9pa">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="click" help="click" identifier="click"/>
+                                        </button>
+                                        <button identifier="clinkklank" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tz4-wc-DU4">
+                                            <rect key="frame" x="192" y="9" width="57" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="y2f-sh-rfH">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="clinkklank" help="clinkklank" identifier="clinkklank"/>
+                                        </button>
+                                        <button identifier="droplet" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YRv-cy-voS">
+                                            <rect key="frame" x="248" y="9" width="44" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" sound="Sosumi" inset="2" id="J0R-mJ-zTj">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="droplet" help="droplet" identifier="droplet"/>
+                                        </button>
+                                        <button identifier="indigo" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fbn-V4-LhU">
+                                            <rect key="frame" x="298" y="9" width="41" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="bJP-te-1G0">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="indigo" help="indigo" identifier="indigo"/>
+                                        </button>
+                                        <button identifier="laugh" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3W-Wg-Ccm">
+                                            <rect key="frame" x="346" y="9" width="43" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" toolTip="Play" identifier="laugh" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="V7J-pY-w2j">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="11" name="Geneva"/>
+                                                <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <font key="titleFont" size="12" name="Geneva"/>
+                            </box>
+                            <button identifier="bip" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoN-hj-sTJ">
+                                <rect key="frame" x="20" y="194" width="44" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Bip" alternateTitle="Bip" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="jLM-xr-LfZ">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="bip" help="bip" identifier="bip"/>
+                            </button>
+                            <button identifier="boing" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKS-dT-Soz">
+                                <rect key="frame" x="73" y="194" width="41" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Boing" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="aVV-fx-ZKg">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="boing" help="boing" identifier="boing"/>
+                            </button>
+                            <button identifier="ChuToy" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bTD-F0-Xfn">
+                                <rect key="frame" x="121" y="194" width="44" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="ChuToy" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="ZYy-vJ-6C7">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="ChuToy" help="ChuToy" identifier="ChuToy"/>
+                            </button>
+                            <button identifier="click" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKU-np-Hu4">
+                                <rect key="frame" x="171" y="194" width="41" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Click" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="1sk-Uz-mPF">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="click" help="click" identifier="click"/>
+                            </button>
+                            <button identifier="clinkklank" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s19-MP-tEV">
+                                <rect key="frame" x="212" y="194" width="57" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="ClinkKlank" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="keK-mB-SxC">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="clinkklank" help="clinkklank" identifier="clinkklank"/>
+                            </button>
+                            <button identifier="droplet" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-Fe-m8h">
+                                <rect key="frame" x="268" y="194" width="44" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Droplet" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="E3e-hN-IV7">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="droplet" help="droplet" identifier="droplet"/>
+                            </button>
+                            <button identifier="indigo" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tS1-k9-aJH">
+                                <rect key="frame" x="318" y="194" width="41" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Indigo" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="4wZ-aQ-tCn">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="indigo" help="indigo" identifier="indigo"/>
+                            </button>
+                            <button identifier="laugh" autoresizesSubviews="NO" toolTip="Play" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nt-nN-oax">
+                                <rect key="frame" x="366" y="194" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="smallSquare" title="Laugh" bezelStyle="smallSquare" image="ui_file" imagePosition="above" alignment="center" scrollable="YES" lineBreakMode="clipping" state="on" baseWritingDirection="leftToRight" toolTip="Play" identifier="laugh" allowsMixedState="YES" imageScaling="proportionallyDown" inset="2" id="dF1-Dx-jfV">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="11" name="Geneva"/>
+                                    <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <accessibility description="laugh" help="laugh" identifier="laugh"/>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dSO-FS-Tym">
+                                <rect key="frame" x="26" y="20" width="100" height="16"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Alert volume:" id="8E4-o3-kHZ">
+                                    <font key="font" size="13" name="Charcoal"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-aj-Jl2">
+                                <rect key="frame" x="133" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_centre" id="0dv-e0-oes"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5st-xO-OhX">
+                                <rect key="frame" x="252" y="276" width="97" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" image="ui_title_bg" id="tRd-vj-RQf"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0l4-4d-ryw">
+                                <rect key="frame" x="241" y="283" width="118" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" allowsUndo="NO" baseWritingDirection="leftToRight" alignment="center" title="Platinum Sound" id="CbT-AJ-Wel">
+                                    <font key="font" size="14" name="Charcoal"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" red="0.67443490029999997" green="0.67455285789999997" blue="0.67442744970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="jTB-I7-Uxj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="670"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ui_bttn" width="414" height="125"/>
+        <image name="ui_close" width="13" height="13"/>
+        <image name="ui_file" width="32" height="32"/>
+        <image name="ui_max" width="19" height="18"/>
+        <image name="ui_min" width="19" height="18"/>
+        <image name="ui_minimise" width="13" height="13"/>
+        <image name="ui_title_bg" width="680" height="170"/>
+        <image name="ui_title_centre" width="680" height="170"/>
+        <image name="ui_title_left" width="248" height="170"/>
+        <image name="ui_title_right" width="248" height="170"/>
+        <sound name="Sosumi"/>
+        <sound name="Submarine"/>
+    </resources>
+</document>

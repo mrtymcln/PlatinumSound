@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="Rqw-GB-nSm">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="dhl-jS-4rY">
+            <objects>
+                <windowController id="Rqw-GB-nSm" customClass="PreferencesWindowController" customModule="Platinum_Sound" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" appearanceType="aqua" frameAutosaveName="" animationBehavior="default" id="jCK-cv-aDA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                        <rect key="contentRect" x="500" y="0.0" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="922"/>
+                        <connections>
+                            <outlet property="delegate" destination="Rqw-GB-nSm" id="JaL-Dm-tJo"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="J6k-5a-SbH" kind="relationship" relationship="window.shadowedContentViewController" id="wY0-cH-yRu"/>
+                    </connections>
+                </windowController>
+                <customObject id="MVD-Wo-i65" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="-178"/>
+        </scene>
+        <!--Tab View Controller-->
+        <scene sceneID="r6D-qp-HkB">
+            <objects>
+                <tabViewController selectedTabViewItemIndex="0" tabStyle="toolbar" id="J6k-5a-SbH" sceneMemberID="viewController">
+                    <tabViewItems>
+                        <tabViewItem label="Preferences" identifier="prefs" image="ui_folder" id="A1Q-mE-RUm" userLabel="Locations"/>
+                        <tabViewItem label="Updates" identifier="updates" image="ui_install" id="Aqn-ra-OlR"/>
+                    </tabViewItems>
+                    <viewControllerTransitionOptions key="transitionOptions" allowUserInteraction="YES"/>
+                    <tabView key="tabView" type="noTabsNoBorder" id="Mj1-0u-SZL">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <font key="font" metaFont="system"/>
+                        <connections>
+                            <outlet property="delegate" destination="J6k-5a-SbH" id="ivM-a5-yP8"/>
+                        </connections>
+                    </tabView>
+                    <connections>
+                        <outlet property="tabView" destination="Mj1-0u-SZL" id="b7T-9z-pp5"/>
+                        <segue destination="CbG-uA-UXG" kind="relationship" relationship="tabItems" id="p6U-IE-ILd"/>
+                        <segue destination="jIF-zo-Q9v" kind="relationship" relationship="tabItems" id="QCH-QO-mvV"/>
+                    </connections>
+                </tabViewController>
+                <customObject id="wzg-J3-s6R" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="277"/>
+        </scene>
+        <!--Preferences-->
+        <scene sceneID="N6l-xC-bfR">
+            <objects>
+                <viewController title="Preferences" id="CbG-uA-UXG" customClass="PreferencesViewController" customModule="Platinum_Sound" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="4Ei-kU-JuY">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dv-Ca-PYQ">
+                                <rect key="frame" x="18" y="20" width="200" height="16"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="There are no preferences." id="bjt-7I-avS">
+                                    <font key="font" size="13" name="Charcoal"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="FvE-cN-eWk" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="452" y="155"/>
+        </scene>
+        <!--Updates-->
+        <scene sceneID="qGp-4b-l0U">
+            <objects>
+                <viewController title="Updates" id="jIF-zo-Q9v" userLabel="Updates" customClass="PreferencesViewController" customModule="Platinum_Sound" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="XZr-ZU-qCW">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="150"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Qxy-fH-boX">
+                                <rect key="frame" x="18" y="113" width="356" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Check for new and updated versions of your software." id="D2F-3s-tGe">
+                                    <font key="font" size="13" name="Charcoal"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button autoresizesSubviews="NO" toolTip="Check for updates..." verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mI3-wa-QaS">
+                                <rect key="frame" x="20" y="20" width="82" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="XeB-SK-bBz"/>
+                                    <constraint firstAttribute="width" constant="82" id="d9k-ST-aIQ"/>
+                                </constraints>
+                                <buttonCell key="cell" type="smallSquare" title="Check..." bezelStyle="smallSquare" image="ui_bttn" imagePosition="overlaps" alignment="center" lineBreakMode="charWrapping" state="on" baseWritingDirection="leftToRight" imageScaling="proportionallyUpOrDown" inset="2" id="8k9-fY-ezw">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name="ChicagoFLF"/>
+                                </buttonCell>
+                                <color key="contentTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rhb-SJ-tDe">
+                                <rect key="frame" x="18" y="90" width="94" height="15"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Version 1.0 (1)" id="PKd-Bf-JXu">
+                                    <font key="font" size="12" name="Geneva"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mI3-wa-QaS" firstAttribute="leading" secondItem="XZr-ZU-qCW" secondAttribute="leading" constant="20" symbolic="YES" id="25d-JU-ZFZ"/>
+                            <constraint firstAttribute="bottom" secondItem="mI3-wa-QaS" secondAttribute="bottom" constant="20" symbolic="YES" id="2uy-C8-UFn"/>
+                            <constraint firstItem="mI3-wa-QaS" firstAttribute="leading" secondItem="rhb-SJ-tDe" secondAttribute="leading" id="L6S-3r-Lp6"/>
+                            <constraint firstItem="rhb-SJ-tDe" firstAttribute="top" secondItem="Qxy-fH-boX" secondAttribute="bottom" constant="8" symbolic="YES" id="bGR-yg-toZ"/>
+                            <constraint firstItem="mI3-wa-QaS" firstAttribute="leading" secondItem="Qxy-fH-boX" secondAttribute="leading" id="mPB-dR-Yw0"/>
+                            <constraint firstItem="mI3-wa-QaS" firstAttribute="top" secondItem="rhb-SJ-tDe" secondAttribute="bottom" constant="45" id="w4S-63-f7r"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="alA-8d-lUT" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="452" y="352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ui_bttn" width="414" height="125"/>
+        <image name="ui_folder" width="500" height="500"/>
+        <image name="ui_install" width="500" height="500"/>
+    </resources>
+</document>
